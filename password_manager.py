@@ -75,7 +75,7 @@ def choice():
 
         def pass_gen():
             def len():
-                length = int(input("Enter your password lenght(minimum 8): "))
+                length = int(input("Enter your password lenght(minimum 8): ").strip())
                 if length < 7:
                     print("Please choose your length above 7 chr", )
                     len()
