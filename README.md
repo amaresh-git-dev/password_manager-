@@ -23,4 +23,4 @@ password_manager- is a Python script that evaluates the strength of a password p
 2. Run the script using the following command:
 
 ```shell
-python password_manager-.py
+python password_manager.py
